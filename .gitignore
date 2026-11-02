@@ -1,0 +1,18 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# 运动数据。默认在 data/raw、data/tcx、data/fit，其他目录里的同类文件也不提交。
+/data/
+*.json
+*.tcx
+*.fit
+*.gpx
+*.tmp

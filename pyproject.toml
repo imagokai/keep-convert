@@ -1,0 +1,15 @@
+[project]
+name = "keep-convert"
+version = "0.1.0"
+description = "Save Keep activity JSON and convert it into TCX and FIT"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "eviltransform==0.1.1",
+    "garmin-fit-sdk==21.218.0",
+    "pycryptodome==4.1.0",
+    "requests==2.32.5",
+]
+
+[tool.uv]
+package = false
